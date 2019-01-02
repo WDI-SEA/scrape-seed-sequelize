@@ -39,6 +39,10 @@ Your app should include:
 * **Index View:** A list of Seattle Neighborhoods with a text input box that functions as a search/filter (like your dinosaurs app). Each neighborhood in the list should have an "explore" button that links to the show view for that neighborhood.
 * **Show View:** A page that displays the neighborhood name, photo, description, and link to the seattle neighborhoods website page corresponding to that neighborhood.
 
+---
+
 ## Let's get CRUDdy
 
-Add a **New Neighborhood** view that has a form for users to enter their own made-up neighborhood. Make sure to create a `POST` route that posts the new neighborhood data to the database.
+* Add a **New** view that has a form for users to enter their own made-up neighborhood. Make sure to create a `POST` route that posts the new neighborhood data to the database. Add a button to the `index` view that takes the user to this form.
+* Add an **Edit** view that allows users to edit neighborhoods. Add a button to the `show` page that takes the user to this form.
+* Add a **Delete** button to the `show` page that allows users to delete neighborhoods.

@@ -39,6 +39,8 @@ Your app should include:
 * **Index View:** A list of Seattle Neighborhoods with a text input box that functions as a search/filter (like your dinosaurs app). Each neighborhood in the list should have an "explore" button that links to the show view for that neighborhood.
 * **Show View:** A page that displays the neighborhood name, photo, description, and link to the seattle neighborhoods website page corresponding to that neighborhood.
 
+**CAUTION!** Some neighborhoods have slashes in their name (Bainbridge/Bremerton, for example). This can make their show routes a bit tricky. Make a plan to handle these situations.
+
 ---
 
 ## Let's get CRUDdy
